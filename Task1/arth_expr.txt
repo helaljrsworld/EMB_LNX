@@ -1,0 +1,21 @@
+We have 3 options:
+
+1- Either use 'expr'
+
+2- Or use $(( ))
+
+3- Or use let
+
+
+For example :
+if a = 7
+b = 8
+We can add them using either:
+
+sum=$(expr $a + $b)
+Or
+sum=$((a + b))
+Or
+let sum=a+b
+
+But the most common one is the '$(( ))' Method

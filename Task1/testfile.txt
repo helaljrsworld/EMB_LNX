@@ -1,0 +1,5 @@
+apple
+Banana
+Fast
+Orange
+Slow
